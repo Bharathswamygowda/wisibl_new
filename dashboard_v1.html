@@ -1,0 +1,329 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home - wisibl</title>
+    <!-- fav icon -->
+    <link rel="icon" type="image/png" href="tools/images/favicon.png" />
+
+    <!-- css files -->
+    <link rel="stylesheet" href="tools/lib/css/wisibl.css" />
+    <link rel="stylesheet" href="tools/lib/css/select2.min.css" />
+
+    <link rel="stylesheet" href="tools/css/header.css" />
+    <link rel="stylesheet" href="tools/css/dashboard.css" />
+
+
+
+</head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<body>
+
+
+    <!-- header -->
+    <header class="header header-space">
+
+        <a class="navbar-brand" href="#">
+            <img src="tools/images/logo.png" alt="logo">
+        </a>
+
+      
+
+
+        <ul class="navbar-nav notification__center float-right">
+
+            <!-- button -->
+            <li class="nav-item">
+              <a class="btn notification__center-button" href="#">Create Campaign</a>
+            
+            </li>
+
+            <!-- profile -->
+            <li class="nav-item ">
+                <div class="dropdown">
+                    <a data-toggle="dropdown" aria-expanded="false">
+                        <img class="notification__center-profile" src="../../tools/images/90x90.jpg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </a>
+
+                    <div class="dropdown-menu customize__dropmenu" style="will-change: transform;">
+
+                     
+
+                        <a class="dropdown-item customize__dropmenu-space customize__dropmenu-items" href="#">
+                            <span class="customize__dropmenu-icon">
+                                <i data-feather="smile"></i>
+                            </span>
+                            <span>
+                                <p class="customize__dropmenu-itemsName mb-0">Support</p>
+                            </span>
+                        </a>
+
+                        <a class="dropdown-item customize__dropmenu-space customize__dropmenu-items" href="#">
+                            <span class="customize__dropmenu-icon">
+                                <i data-feather="log-out"></i>
+                            </span>
+
+                            <span>
+                                <p class="customize__dropmenu-itemsName mb-0">Logout</p>
+                            </span>
+
+
+                        </a>
+
+
+                    </div>
+
+                </div>
+            </li>
+
+
+        </ul>
+
+
+
+    </header>
+
+    <!-- mobile header -->
+    <div class="mobile__header">
+
+        <a class="navbar-brand" href="#">
+            <img src="tools/images/logo.png" alt="logo">
+        </a>
+
+
+        <div class="mobile__menu"> 
+            <a class="mobile__menu-button"  href="#">  <i data-feather="user-plus"></i> </a>          
+
+
+            <div class="mobile__menu-hamber">
+                <input type="checkbox" class="mobile__header-checkbox" id="navi-toggle">
+                <label for="navi-toggle" class="mobile__header-button">
+                    <span class="mobile__header-icon"></span>
+                </label>
+                <div class="mobile__header-background">
+                    &nbsp;
+                </div>
+
+                <nav class="navigation_nav">
+
+           
+
+                    <a class="navigation_nav-mobile mb-4" href="#">
+                        <span class="navigation_nav-icon">
+                            <i data-feather="users"></i>
+                        </span>
+
+                        <span>
+                            <p class="navigation_nav-head mb-0">My Profile </p>
+                            <p class="navigation_nav-sub mb-0">View and manage all your bookings</p>
+                        </span>
+                    </a>
+
+                    <a class="navigation_nav-mobile mb-4" href="#">
+                        <span class="navigation_nav-icon">
+                            <i data-feather="sidebar"></i>
+                        </span>
+
+                        <span>
+                            <p class="navigation_nav-head mb-0">Dashboard</p>
+                            <p class="navigation_nav-sub mb-0">View and manage all your bookings</p>
+                        </span>
+                    </a>
+
+                    <a class="navigation_nav-mobile mb-4" href="#">
+                        <span class="navigation_nav-icon">
+                            <i data-feather="activity"></i>
+                        </span>
+
+                        <span>
+                            <p class="navigation_nav-head mb-0">Active Campaigns</p>
+                            <p class="navigation_nav-sub mb-0">View and manage all your bookings</p>
+                        </span>
+                    </a>
+
+                    <a class="navigation_nav-mobile mb-4" href="#">
+                        <span class="navigation_nav-icon">
+                            <i data-feather="trello"></i>
+                        </span>
+
+                        <span>
+                            <p class="navigation_nav-head mb-0">In Progress  Campaigns</p>
+                            <p class="navigation_nav-sub mb-0">View and manage all your bookings</p>
+                        </span>
+                    </a>
+
+                    <a class="navigation_nav-mobile mb-4" href="#">
+                        <span class="navigation_nav-icon">
+                            <i data-feather="settings"></i>
+                        </span>
+
+                        <span>
+                            <p class="navigation_nav-head mb-0">Completed  Campaigns</p>
+                            <p class="navigation_nav-sub mb-0">View and manage all your bookings</p>
+                        </span>
+                    </a>
+
+                    <a class="navigation_nav-mobile mb-4" href="#">
+                        <span class="navigation_nav-icon">
+                            <i data-feather="smile"></i>
+                        </span>
+
+                        <span>
+                            <p class="navigation_nav-head mb-0">Support</p>
+                            <p class="navigation_nav-sub mb-0">View and manage all your bookings</p>
+                        </span>
+                    </a>
+
+                    <a class="navigation_nav-mobile mb-4" href="#">
+                        <span class="navigation_nav-icon">
+                            <i data-feather="log-out"></i>
+                        </span>
+
+                        <span>
+                            <p class="navigation_nav-head mb-0">Logout</p>
+                            <p class="navigation_nav-sub mb-0">View and manage all your bookings</p>
+                        </span>
+                    </a>
+
+               
+
+
+
+                </nav>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- mobile header -->
+
+
+    <!-- side bar -->
+    <nav id="side__bar" class="header-space">
+
+        <!-- sidebar area -->
+        <div class="sidebar__area">
+            <div class="sidebar__area-template">
+
+                <a class="sidebar__area-content" href="#">
+                    <i data-feather="home"></i>
+                    <p class="mb-0">Home</p>
+                </a>
+
+                <a class="sidebar__area-content " href="#">
+                    <i data-feather="users"></i>
+                    <p class="mb-0">My Profile</p>
+                </a>
+
+                <a class="sidebar__area-content sidebar__area-content-active" href="#">
+                    <i data-feather="sidebar"></i>
+                    <p class="mb-0">Dashboard</p>
+                </a>
+
+                <a class="sidebar__area-content" href="#">
+                    <i data-feather="activity"></i>
+                    <p class="mb-0">Active Campaigns</p>
+                </a>
+
+                <a class="sidebar__area-content" href="#">
+                    <i data-feather="trello"></i>
+                    <p class="mb-0">In Progress Campaigns</p>
+                </a>
+
+                <a class="sidebar__area-content" href="#">
+                    <i data-feather="settings"></i>
+                    <p class="mb-0">Completed Campaigns</p>
+                </a>
+
+                <a class="sidebar__area-content" href="#">
+                    <i data-feather="smile"></i>
+                    <p class="mb-0">Support</p>
+                </a>
+
+                <a class="sidebar__area-content" href="#">
+                    <i data-feather="log-out"></i>
+                    <p class="mb-0">Logout</p>
+                </a>
+
+            </div>
+        </div>
+        <!-- sidebar area -->
+
+        <!-- content area -->
+        <div class="content__area">
+
+            <div class="row">
+                <div class="col-xl-12">
+                    
+                    <div class="campaign__list">
+
+                        <div class="campaign__list-details">
+                            <h1 class="mb-0">29</h1>
+                            <p class="mb-0">Campaigns</p>
+                        </div>
+
+                        <div class="campaign__list-details">
+                            <h1 class="mb-0">50K</h1>
+                            <p class="mb-0">Spent</p>
+                        </div>
+
+                        <div class="campaign__list-details">
+                            <h1 class="mb-0">150K</h1>
+                            <p class="mb-0"> People reached </p>
+                        </div>
+
+                        <div class="campaign__list-details">
+                            <h1 class="mb-0"> 5000K </h1>
+                            <p class="mb-0"> Likes </p>
+                        </div>
+
+                        <div class="campaign__list-details">
+                            <h1 class="mb-0"> 5000K </h1>
+                            <p class="mb-0"> Comments </p>
+                        </div>
+
+                        <div class="campaign__list-details ">
+                            <h1 class="mb-0"> 15 </h1>
+                            <p class="mb-0"> Influencer Connect </p>
+                        </div>
+
+                    </div>
+
+            </div>
+
+         
+
+
+        </div>
+        <!-- content area -->
+
+
+    </nav>
+
+
+
+
+
+
+    <!-- common script files -->
+    <script src="tools/lib/js/jquery-3.1.1.min.js"></script>
+    <script src="tools/lib/js/popper.min.js"></script>
+    <script src="tools/lib/js/bootstrap.min.js"></script>
+    <script src="tools/lib/js/feather.min.js"></script>
+
+
+
+    <!-- page script files -->
+    <script src="tools/lib/js/select2.min.js"></script>
+    <script src="tools/js/common.js"></script>
+
+
+</body>
+
+</html>
