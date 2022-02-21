@@ -204,7 +204,8 @@ header {
 #side__bar {
     position: relative;
     display: grid;
-    grid-template-columns: 14.75rem minmax(0px, 1fr);
+    grid-template-columns: 16.75rem minmax(0px, 1fr);
+    min-height: 100vh;
 }
 
 .sidebar__area-content {
@@ -214,25 +215,29 @@ header {
     -webkit-box-align: center;
     align-items: center;
     font-size: 19px;
-    color: var(--textcolor);
+    color: var(--darkBlack);
 }
 
 .sidebar__area-content:hover {
-    color: var(--blue);
+    color: var(--darkBlack);
     text-decoration: none;
+    font-weight: bold;
 }
 
 .sidebar__area-content-active{
-    color: var(--blue);
+    color: var(--darkBlack);
+    font-weight: bold;
+
 }
 
 .sidebar__area-template {
     position: fixed;
     height: 100vh;
     overflow: hidden;
-    border-right: 1px solid var(--grey1);
-    width: 14.75rem;
-    padding: 3rem 0 0;
+    border-right: 1px solid var(--darkBalck);
+    width: 16.75rem;
+    padding: 3rem 0 0 2rem;
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
 }
 
 .sidebar__area-template svg {
@@ -434,7 +439,7 @@ color: var(--white);
         display: block;
     }
     .content__area {
-        padding: 2rem 0 0;
+        padding: 0;
     }
     .mobile__header {
         top: 0;

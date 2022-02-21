@@ -2,6 +2,7 @@
     --white: #ffffff;
     --blue: #3498db;
     --black: #3b3f5c;
+    --darkBlack:#000000;
     --textcolor: #515365;
     --green: #5cc5aa;
     --grey1: #e3e6ea;
@@ -55,7 +56,7 @@
 
 .bg-gradient {
     background-color: #3498db;
-    background-image: linear-gradient(315deg, #3498db 0%, #5cc5aa 74%);
+    background-image: linear-gradient(to right, #74ebd5, #3498db );
 }
 
 .text-gradient {
@@ -68,6 +69,15 @@
 .header-space {
     padding: 0px 35px;
 }
+
+.header-space-left{
+    padding-left: 35px;
+}
+
+.header-space-right{
+    padding-right: 35px;
+}
+
 
 .img-center {
     display: block;
@@ -2145,7 +2155,7 @@ pre code {
 }
 
 @media (max-width: 767.98px) {
-    .header-space {
+    .header-space, .header-space-left, .header-space-right{
         padding: 0 20px;
     }
     .table-responsive-md {
