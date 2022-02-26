@@ -205,16 +205,12 @@
 
 
     <!-- side bar -->
-    <nav id="side__bar" class="header-space-right">
+    <nav id="side__bar">
 
         <!-- sidebar area -->
         <div class="sidebar__area  bg-gradient">
             <div class="sidebar__area-template">
 
-                <a class="sidebar__area-content" href="#">
-                    <i data-feather="home"></i>
-                    <p class="mb-0">Home</p>
-                </a>
 
                 <a class="sidebar__area-content " href="#">
                     <i data-feather="users"></i>
@@ -296,7 +292,7 @@
                 </div>
             </div>
 
-            <div class="row mb-2">
+            <div class="row mb-4">
                 <div class="col-xl-3">
                     <label class="form-label">Product/Service Desc </label>
                 </div>
@@ -309,14 +305,14 @@
 
             </div>
 
-            <div class="row">
+            <div class="row mb-4">
                 <div class="col-xl-3">
                     <label class="form-label">Influencer Category</label>
                 </div>
                 
                 <div class="col-xl-9">
                     <div class="form-group">
-                        <div class="position-relative d-flex align-items-center mt-1">
+                        <div class="position-relative d-flex align-items-center">
                             <select class="form-control category" multiple="multiple">
                                 <option>orange</option>
                                 <option>white</option>
@@ -357,7 +353,7 @@
                 
                 <div class="col-xl-9">
                     <div class="form-group mb-0">
-                        <div class="position-relative d-flex align-items-center mt-1">
+                        <div class="position-relative d-flex align-items-center">
                             <select class="form-control followers" multiple="multiple">
                                 <option>orange</option>
                                 <option>white</option>
@@ -369,10 +365,68 @@
 
             </div>
 
-            <div class="row">
+            <div class="row mb-4">
+                <div class="col-xl-3">
+                    <label class="form-label">Hashtag to be used </label>
+                </div>
+                
+                <div class="col-xl-9">
+                    <div class="form-group">
+                        <input type="text" class="form-control common__style" id="tag">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-xl-3">
+                    <label class="form-label">Accounts to be tagged </label>
+                </div>
+                
+                <div class="col-xl-9">
+                    <div class="form-group">
+                        <input type="text" class="form-control common__style" id="accounts">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-xl-3">
+                    <label class="form-label">Any specific guidelines </label>
+                </div>
+                
+                <div class="col-xl-9">
+                    <div class="form-group">
+                        <textarea placeholder="Sepcifications" style="resize: none;" rows="3" class="form-control"></textarea>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-xl-3">
+                    <label class="form-label">Deliverables</label>
+                </div>
+                
+                <div class="col-xl-9">
+                    <div class="form-group">
+                        <select class="form-control common__style-height" id="deliverables" name="deliverables">
+                            <option>Story</option>
+                            <option>Post in the Feed</option>
+                            <option>Video</option>
+                            <option>Reels</option>
+                          </select>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row mb-2">
                 <div class="col-xl-12 text-center">
                     <button class="btn btn-primary"> Submit</button>
                 </div>
+            </div>
            
 
 

@@ -66,6 +66,30 @@
     -webkit-background-clip: text;
 }
 
+.bg-1{
+background: #F76E11;
+}
+
+.bg-2{
+background: #FF9F45;
+}
+
+.bg-3{
+background: #FFBC80;
+}
+
+.bg-4{
+background: #FC4F4F;
+}
+
+.bg-5{
+background: #A3423C;
+}
+
+.bg-6{
+background: #DE834D;
+}
+
 .header-space {
     padding: 0px 35px;
 }
@@ -2775,13 +2799,17 @@ fieldset:disabled a.btn {
 
 .btn-primary {
     color: #fff;
-    background-color: #3498db;
-    border-color: #3498db;
+    background: #0575E6; 
+    background: -webkit-linear-gradient(to right, #021B79, #0575E6); 
+    background: linear-gradient(to right, #021B79, #0575E6); 
+    
 }
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #3498db;
+    background: #0575E6; 
+    background: -webkit-linear-gradient(to right, #021B79, #0575E6); 
+    background: linear-gradient(to right, #021B79, #0575E6); 
     border-color: #3498db;
 }
 
